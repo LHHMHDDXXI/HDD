@@ -1,0 +1,37 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif; /* Aplicar la fuente globalmente */
+}
+
+.personal-data {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    padding: 200px; /* Espacio interno */
+}
+
+.personal-img {
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+    background-image: url('/path/to/your/image.jpg'); /* Cambia esta ruta a tu imagen */
+    background-size: cover; /* Ajusta la imagen al contenedor */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.text-data {
+    text-align: center; /* Centra el texto en el contenedor */
+    flex-grow: 1; /* Permite que el contenedor de texto ocupe el espacio disponible */
+}
+
+.text-data ul {
+    list-style-type: none; /* Quita las viñetas de la lista */
+    padding: 0; /* Elimina el padding de la lista */
+    margin: 0; /* Elimina el margin de la lista */
+}
+
+.text-data li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.personal-data {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    width: 100vw;
+}
+
+.personal-img {
+    width: 9cm;
+    height: 11cm;
+}
+
+.text-data {
+    display: flex;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.text-data ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-data li {
+    margin-bottom: 10px;
+}
+
+.about-me-esp, .about-me-eng, .my-future {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0;
+}
+
+.about-me-esp {
+    background-color: #e3f2fd;
+}
+
+.about-me-eng {
+    background-color: #ffe0b2;
+}
+
+.my-future {
+    background-color: #c8e6c9;
+}
+
+.about-me-esp .about-me-text, .about-me-eng .en-text, .my-future .mf-text {
+    flex-grow: 1;
+}
+
+.about-me-esp img, .about-me-eng img, .my-future img {
+    height: 11cm;
+    width: 9cm;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.email {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
